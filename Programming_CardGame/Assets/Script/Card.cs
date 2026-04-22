@@ -5,7 +5,7 @@ using TMPro;
 public class Card : MonoBehaviour
 {
     public TextMeshProUGUI card;
-    private string cardNum;
+    private int cardNum;
     public float rotateSpeed;
     public bool isClick = false;
     public Quaternion flipRotation = Quaternion.Euler(0, 180.0f, 0);
@@ -14,11 +14,6 @@ public class Card : MonoBehaviour
 
     void Start()
     {
-        card = GetComponentInChildren<TextMeshProUGUI>();
-
-        cardNum = Random.Range(0, 10).ToString();
-
-        card.text = cardNum;
     }
 
     void Update()
@@ -36,5 +31,13 @@ public class Card : MonoBehaviour
     public void Clickcard()
     {
         isClick = !isClick;
+    }
+
+    public void SetCardNum(int newNum)
+    {
+        card = GetComponentInChildren<TextMeshProUGUI>();
+        cardNum = newNum;
+
+        card.text = cardNum.ToString();
     }
 }
