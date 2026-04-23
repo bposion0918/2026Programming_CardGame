@@ -27,11 +27,11 @@ public class Card : MonoBehaviour
     {
         if (isFront)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, flipRotation, rotateSpeed *  Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation, originRotation, rotateSpeed * Time.deltaTime);
         }
         else
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, originRotation, rotateSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation, flipRotation, rotateSpeed *  Time.deltaTime);
         }
     }
 

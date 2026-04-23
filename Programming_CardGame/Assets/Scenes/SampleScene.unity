@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 1446196018}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 723069796}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -1806,7 +1806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 272136852}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -1981,7 +1981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 170756960}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 2117189535}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -2522,7 +2522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 1896322599}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -2740,7 +2740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 382968804}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
@@ -3148,7 +3148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   card: {fileID: 421531060}
   cardNum: 0
-  rotateSpeed: 0
+  rotateSpeed: 3
   isFront: 0
   isMatched: 0
   flipRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
